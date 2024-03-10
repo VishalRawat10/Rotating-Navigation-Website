@@ -7,7 +7,7 @@ btns[0].addEventListener("click", ()=>{
     circle.classList.add("rotate3");
     circle.classList.remove("rotate2");
     main.id="anti-rotate" ;
-    nav.classList.add("hide");
+    nav.classList.remove("show");
 
 })
 btns[1].addEventListener("click", ()=>{
@@ -15,5 +15,4 @@ btns[1].addEventListener("click", ()=>{
     circle.classList.remove("rotate3");
     main.id="rotate" ;
     nav.classList.add("show");
-    nav.classList.remove("hide");
 })

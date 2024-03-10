@@ -33,6 +33,7 @@ body {
     background-color: #FF7979;
     top: -100px;
     left: -100px;
+    z-index: 100;
 }
 
 #icon-1 {
@@ -126,7 +127,3 @@ body {
     left: 0px;
 }
 
-.hide {
-    transition: all 1s linear;
-    left: -100%;
-}
